@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contacto - Alessandra Oi</title>
+  </head>
+  <body>
+    <header class="cabecera">
+      <h1 class="logo">Alessandra Oi</h1>
+      <a href="#" id="link-menu" class="button-menu">&#9776;</a>
+      <nav id="menu" class="menu-principal">
+        <a href="../index.html">Inicio</a>
+        <a href="../servicio/proyectos.html">Proyectos</a>
+        <a href="../sobre-mi/sobre-mi.html">Sobre mí</a>
+        <a href="contacto.html" class="activo">Contacto</a>
+      </nav>
+    </header>
+
+    <main class="contacto-page">
+      <section class="contacto-intro">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto en mente o quieres saber más? Escríbeme:</p>
+      </section>
+
+      <section class="contacto-form">
+        <form action="https://formspree.io/f/tu-id" method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>

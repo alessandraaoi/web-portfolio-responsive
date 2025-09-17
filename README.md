@@ -18,4 +18,12 @@ IMAGENES
 Todas las imagenes son de Alessandra Oi. He optimizado los tiempos de carga utilizando el atributo "loading.lazy" en mis archivos .html. 
 
 REPOSITORIO GIT
-He creado el repositorio al terminar el proyecto, por lo tanto es posible que no se puedan visualizar los varios commits. He utilizado la consola Git Bash para poder subir mi proyecto local al repositorio remoto. 
+He creado el repositorio al terminar el proyecto, por lo tanto es posible que no se puedan visualizar los varios commits. He utilizado la consola Git Bash para poder subir mi proyecto local al repositorio remoto. El proyecto se encuentra ubicado en la rama "master". 
+
+PROBLEMAS ENFRENTADOS
+1. Imágenes demasiado pesadas y que no cargaban. Sobretodo las imagenes del 'proyecto-3' eran muy pesadas. Para solucionar el problema, he utilizado Photoshop para reducir el tamaño de las imagenes y he incluido el atributo "loading = lazy" para que se carguen solo en la pantalla en la cual aparecen.
+2. Orden de las carpetas y enlaces a los archivos css y js. He optado por enlazar todos mis archivos HTML a un mimso archivo .css y .js, para solucionar el problema de pérdida de enlaces al cual me he estado enfrentando.
+3. Falta de "autonomía" para realizar el menu responsive, me ha sido necesario revisar las grabaciones de las clases para su correcta realización.
+
+PLAN DE PRUEBAS
+He estado comprobando el correcto funcionamiento y visualización en el navegador a través del plug-in Live Server de Visual Studio Code. 
